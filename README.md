@@ -1,5 +1,5 @@
 # Criar Album 2024
-Python Notebook para criar os álbuns das repúblicas participantes do Torneio Interrep 2023.
+Python para criar os álbuns das repúblicas participantes do Torneio Interrep 2024.
 
 Python 3.12 e versões travadas do requirements
 para criar e configurar o ambiente de execução, rode os comandos abaixo
@@ -9,13 +9,5 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-# RECOMENDO USAR O MAIN.PY
-
-O notebook usa uma versão específica do csv de inscrição do torneio gerado pelo site Jotform.
-Caso a estrutura do formulário mude, será necessário alterar o notebook.
-
-Para que tudo funcione, primeiro baixe as imagens (todas) e coloque-as em um diretório/pasta chamado "imagens", no mesmo local que o notebook, assim como o csv do formulário de inscrição (renomeie-o para "form.csv").
-
-As imagens finais serão criadas no diretório/pasta "albuns".
-
-O código tá caótico (eu sei), mas foi adaptado para abranger vários edge cases, que no futuro podem não ser necessário e podem ser retirados (principalmente no nome dos jogadores).
+Para usar, primeiro faça login no jotform e baixe os formulários da conta logada. O Jotform precisa estar logado para que
+o código consiga baixar as imagens
